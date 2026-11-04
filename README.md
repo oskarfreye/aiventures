@@ -27,7 +27,7 @@ AIVentures is a Flutter-based text adventure game powered by AI. The application
 
 1. Firebase project with VertexAI API enabled
 2. Google Cloud credentials for Gemini and Imagen models
-3. Flutter SDK 3.7.0+
+3. Flutter SDK 3.47.8+ (Dart 3.13.7+; includes the eMudhra CA trust fix)
 
 ## Getting Started
 
