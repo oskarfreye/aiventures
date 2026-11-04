@@ -18,7 +18,10 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  # Minimum Dart 3.13.7 (Flutter 3.47.8+) so Android, Windows, and Linux
+  # binaries pick up the dart:io TLS trust fix for the compromised eMudhra CA:
+  # https://firebase.google.com/support/guides/compromised-emudhra-intermediate-ca
+  sdk: ^3.13.7
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
